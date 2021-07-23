@@ -1,0 +1,18 @@
+nav{
+    background-color: #fff;
+    height: 100px;
+    .navbar-brand img{
+        width: 150px;
+    }
+    i{
+        font-size: 22px;
+        padding-left: 15px;
+    }
+    @media (max-width: 576px) {
+        height: 8vh;
+    }
+}
+
+.navbar > .container, .navbar > .container-fluid, .navbar > .container-sm, .navbar > .container-md, .navbar > .container-lg, .navbar > .container-xl, .navbar > .container-xxl {
+    background-color: white;
+}

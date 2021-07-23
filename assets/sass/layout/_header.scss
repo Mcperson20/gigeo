@@ -1,0 +1,26 @@
+.contenedor-imagen{
+    height: 20vh;
+    @media (max-width: 576px) {
+        height: 8vh;
+    }
+}
+
+.cover{
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    
+}
+
+.autor{
+    padding-top: 20px;
+    .autor__imagen{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+    .autor__descripcion{
+        padding-left: 50px;
+        padding-top: 15px;
+    }
+}
